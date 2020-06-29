@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --mode dev",
-    "build": "vue-cli-service build --mode prod" ,
+    "build": "vue-cli-service build --mode prod",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "better-scroll": "^1.15.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",

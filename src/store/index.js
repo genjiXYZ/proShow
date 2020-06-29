@@ -5,11 +5,21 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+
+    isRunning: false,
   },
   mutations: {
+   
+    throttle(state, payload) {
+      if (!payload.flag) {
+        console.log("运行了 ")
+        state.isRunning = true;
+        window.requestAnimationFrame(payload.fn);
+      }
+    },
+  
+
   },
-  actions: {
-  },
-  modules: {
-  }
+  actions: {},
+  modules: {}
 })

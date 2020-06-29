@@ -3,7 +3,7 @@
     <v-app-bar
       app
     
-      dark
+      color="transparent"
       dense
     >
       <div class="d-flex align-center">
@@ -66,9 +66,20 @@ export default {
 <style lang="css" >
 
 
+
+@font-face{
+    font-family: piedra;
+    src: url('../src/style/font/Piedra-Regular.ttf')
+}
+
+
 #app{
   height: 600vh;
-  background-color: rebeccapurple;
+  background-color: #482467;
+}
+
+ul,li{
+  list-style: none;
 }
 
 </style>

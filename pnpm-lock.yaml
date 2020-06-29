@@ -1,4 +1,5 @@
 dependencies:
+  better-scroll: 1.15.2
   core-js: 3.6.5
   vue: 2.6.11
   vue-router: 3.3.4
@@ -2008,6 +2009,14 @@ packages:
     resolution:
       integrity: sha1-hP2hnJduxcbe/vV/lCez3vZuF6M=
       tarball: babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.3.tgz
+  /babel-runtime/6.26.0:
+    dependencies:
+      core-js: 2.6.11
+      regenerator-runtime: 0.11.1
+    dev: false
+    resolution:
+      integrity: sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+      tarball: babel-runtime/download/babel-runtime-6.26.0.tgz
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -2045,6 +2054,13 @@ packages:
     resolution:
       integrity: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
       tarball: bcrypt-pbkdf/download/bcrypt-pbkdf-1.0.2.tgz
+  /better-scroll/1.15.2:
+    dependencies:
+      babel-runtime: 6.26.0
+    dev: false
+    resolution:
+      integrity: sha1-Zf/GBYuLT/M3uN+tS8szTXaZzrY=
+      tarball: better-scroll/download/better-scroll-1.15.2.tgz
   /bfj/6.1.2:
     dependencies:
       bluebird: 3.7.2
@@ -2937,6 +2953,13 @@ packages:
     resolution:
       integrity: sha1-KlHZpOJd/W5pAlGqgfmePAVIHxw=
       tarball: core-js-compat/download/core-js-compat-3.6.5.tgz
+  /core-js/2.6.11:
+    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
+      tarball: core-js/download/core-js-2.6.11.tgz
   /core-js/3.6.5:
     requiresBuild: true
     resolution:
@@ -7786,6 +7809,11 @@ packages:
     resolution:
       integrity: sha1-ytkq2Oa1kXc0hfvgWkhcr09Ffm8=
       tarball: regenerate/download/regenerate-1.4.1.tgz
+  /regenerator-runtime/0.11.1:
+    dev: false
+    resolution:
+      integrity: sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
+      tarball: regenerator-runtime/download/regenerator-runtime-0.11.1.tgz
   /regenerator-runtime/0.13.5:
     dev: true
     resolution:
@@ -9969,6 +9997,7 @@ specifiers:
   '@vue/cli-plugin-vuex': ~4.4.0
   '@vue/cli-service': ~4.4.0
   babel-eslint: ^10.1.0
+  better-scroll: ^1.15.2
   core-js: ^3.6.5
   eslint: ^6.7.2
   eslint-plugin-vue: ^6.2.2
